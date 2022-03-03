@@ -2,7 +2,7 @@
    &__bg {
       font-size: 40px;
       position: absolute;
-      background: url('../../img/bg/Основной\ фон\ 1.png') center center/cover no-repeat;
+      background: url('../../img/bg/main_bg.png') center center/cover no-repeat;
       background-color: #F9DDC9;
       width: 100%;
       height: 450px;
@@ -15,7 +15,7 @@
    }
    &__block {
       display: flex;
-      background: rgba(255, 255, 255, 0.8);
+      background: rgba(255, 255, 255, 0.6);
       min-height: 70px;
       align-items: center;
       justify-content: center;
@@ -24,6 +24,29 @@
       margin-top: 65px;
       display: flex;
       justify-content: space-between;
+   }
+   &__link {
+      font-size: 30px;
+      color: #fff;
+      &_small {
+         font-size: 19px;
+      }
+   }
+   &__gallery {
+      position: relative;
+      background: url('../../img/bg/gallery_bg.png') center center/cover no-repeat;
+      width: 255px;
+      height: 230px;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 25px;
+   }
+   &__text {
+      position: absolute;
+      bottom: 46%;
+      left: 30%;
+      font-size: 25px;
+      color: #fff;
    }
    
 }
