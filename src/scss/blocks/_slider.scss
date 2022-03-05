@@ -1,0 +1,77 @@
+.slick-list {
+    overflow: hidden;
+    width: 500px;
+    margin: 0 auto;
+ }
+ .slick-track{
+    display: flex;
+ }
+ .holiday__slider {
+    width: 630px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 60px;
+    margin-top: 20px;
+ }
+ .holiday__slider .holiday__slide {
+    text-align: center;
+    margin-top: 50px;
+ }
+ .holiday__slider .slick-arrow{
+    position: absolute;
+    top: 60%;
+    z-index: 10;
+    font-size: 0;
+    width: 35px;
+    height: 60px;
+    margin-top: -15px;
+ }
+ .holiday__slider .slick-arrow.slick-prev{
+    left: 0;
+    background: url('../../img/icons/keyboard-left-arrow-button_icon-icons.com_72692.svg') 0 0 / 100% no-repeat;
+ }
+ .holiday__slider .slick-arrow.slick-next{
+    right: 0;
+    background: url('../../img/icons/keyboard-right-arrow-button-1_icon-icons.com_72690.svg') 0 0 / 100% no-repeat;
+ }
+ .holiday__slider .slick-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+ }
+ .holiday__slider .slick-dots li {
+  list-style-type: none;
+  margin: 0 10px;
+ }
+ .holiday__slider .slick-dots button {
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    color: #fff;
+    border-radius: 50%;
+ }
+ .holiday__slider .slick-dots li.slick-active button {
+    background-color: transparent;
+    border: 1px solid #000;
+ }
+ .slick-next:before {
+    display: none;
+}
+.slick-prev:before {
+    display: none;
+}
+.slick-list {
+    min-height: 300px;
+}
+.slick-dots {
+    display: flex;
+    margin: 0 auto;
+}
+.holiday__slide {
+   img {
+      border-radius: 40px;
+      width: 100%;
+      max-height: 500px;
+   }
+}

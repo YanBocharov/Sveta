@@ -3,4 +3,17 @@
    height: 60px;
    border-radius: 30px;
    background-color: #E69679;
+   font-size: 23px;
+   color: #fff;
+   cursor: pointer;
+   transition: 0.5s all;
+         &:hover {
+            transition: 0.5s all;
+            width: 165px;
+            height: 62px;
+            font-size: 28px;
+         }
+   &_small {
+      font-size: 19px;
+   }
 }

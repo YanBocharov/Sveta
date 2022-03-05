@@ -36,6 +36,8 @@ body {
    display: flex;
    flex-direction: column;
    min-height: 100%;
+   background: url('../img/bg/main_bg-min.png') center center/cover no-repeat;
+   z-index: -2;
 }
 
 .main {
@@ -52,3 +54,8 @@ body {
 @import 'blocks/titles';
 @import 'blocks/buttons';
 @import 'blocks/main';
+@import 'blocks/holiday';
+@import 'blocks/slider';
+@import 'blocks/sveta';
+@import 'blocks/footer';
+@import 'blocks/media';
