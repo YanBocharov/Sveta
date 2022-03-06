@@ -52,8 +52,7 @@
     border-radius: 50%;
  }
  .holiday__slider .slick-dots li.slick-active button {
-    background-color: transparent;
-    border: 1px solid #000;
+    color: white;
  }
  .slick-next:before {
     display: none;
@@ -73,5 +72,11 @@
       border-radius: 40px;
       width: 100%;
       max-height: 500px;
+   }
+}
+.slick-dots li button {
+   &:before {
+      display: block;
+      color: white;
    }
 }

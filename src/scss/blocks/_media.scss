@@ -1,3 +1,13 @@
+@media (max-width: 768px) {
+    .holiday {
+        &__slide {
+            img {
+                width: 80%;
+                height: 400px;
+            }
+        }
+    }
+}
 @media (max-width: 530px) {
     .header {
         &__title {
@@ -28,6 +38,151 @@
         &__img {
             img {
                 margin-left: 130px;
+            }
+        }
+    }
+    .holiday {
+        &__slider {
+            width: 500px;
+        }
+        &__slide {
+            display: flex;
+            justify-content: center;
+            margin-left: -10px;
+        }
+    }
+    .footer {
+        &__text {
+            font-size: 20px;
+            margin-left: 20px;
+        }
+    }
+}
+@media (max-width: 425px) {
+    .header {
+        font-size: 28px;
+        .button {
+            width: 110px;
+            height: 50px;
+            font-size: 20px;
+        }
+        &__title {
+            img {
+                left: 26%;
+            }
+            div {
+                left: 36%;
+            }
+        }
+    }
+    .main {
+        .button {
+            width: 120px;
+            height: 55px;
+            font-size: 19px;
+        }
+    }
+    .holiday {
+        padding: 65px 0 0 0;
+        &__slider {
+            display: flex;
+            margin: 0 auto;
+        }
+    }
+    .slick-next {
+        left: 375px;
+    }
+    .sveta {
+        padding: 45px 0 0 0;
+        &__title {
+            img {
+                left: 27%;
+            }
+            div {
+                left: 34%;
+            }
+        }
+        &__img {
+            img {
+                margin-left: 18%;
+            }
+        }
+    }
+    .footer {
+        padding: 0 0px;
+        &__text {
+            font-size: 17px;
+            margin-left: 15px;
+        }
+    }
+}
+@media (max-width: 375px) {
+    .header {
+        font-size: 27px;
+        .button {
+            width: 110px;
+            height: 50px;
+            font-size: 20px;
+        }
+        &__title {
+            img {
+                left: 23%;
+            }
+            div {
+                left: 35%;
+            }
+        }
+    }
+    .main {
+        .button {
+            width: 110px;
+            height: 55px;
+            font-size: 18px;
+        }
+    }
+    .holiday {
+        padding: 65px 0 0 0;
+        &__slider {
+            display: flex;
+            margin: 0 auto;
+            padding-left: 35px;
+        }
+        &__slide {
+            img {
+                width: 70%;
+                height: 300px;
+            }
+        }
+    }
+    .slick-next {
+        left: 320px;
+    }
+    .sveta {
+        padding: 45px 0 0 0;
+        &__title {
+            img {
+                left: 20%;
+            }
+            div {
+                left: 29%;
+            }
+        }
+        &__img {
+            img {
+                margin-left: 12%;
+            }
+        }
+    }
+    .footer {
+        padding: 0 0px;
+        &__text {
+            font-size: 16px;
+            margin-left: 14px;
+        }
+        &__img {
+            width: 40px;
+            &_mr {
+                margin-right: -25px;
             }
         }
     }
