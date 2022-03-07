@@ -1,16 +1,19 @@
 .slick-list {
     overflow: hidden;
     width: 500px;
+    min-height: 500px;
     margin: 0 auto;
  }
  .slick-track{
     display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
  }
  .holiday__slider {
     width: 630px;
     position: relative;
     margin: 0 auto;
-    padding: 0 60px;
     margin-top: 20px;
  }
  .holiday__slider .holiday__slide {
@@ -59,9 +62,6 @@
 }
 .slick-prev:before {
     display: none;
-}
-.slick-list {
-    min-height: 300px;
 }
 .slick-dots {
     display: flex;
