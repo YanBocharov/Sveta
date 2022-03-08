@@ -9,8 +9,7 @@ $(function() {
             {
                 breakpoint: 426,
                 settings: {
-                    arrows: true
-                    
+                    arrows: true  
                 }
             }
         ]
